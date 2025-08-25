@@ -167,3 +167,8 @@ body::-webkit-scrollbar-thumb{
 body::-webkit-scrollbar-thumb:active{
   background: linear-gradient(to right bottom, #7083aa , #7083aa);
 }
+
+::selection{
+  color: #0048d8c0;
+  background: transparent;
+}

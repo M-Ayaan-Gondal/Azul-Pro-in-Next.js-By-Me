@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "./components/Navbar/page";
 
 import { ReactLenis } from "./utils/lenis";
+import SplashCursor from "./components/splashCursor/page";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -50,6 +51,9 @@ export default function RootLayout({
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >
           <Navbar />
+          <div style={{ zIndex:100 }}>
+            <SplashCursor SPLAT_RADIUS={0.2}/>
+          </div>
           {children}
         </body>
       </ReactLenis>

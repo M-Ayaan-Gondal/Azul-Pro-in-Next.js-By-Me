@@ -20,8 +20,8 @@ export default function Page() {
       opacity: 0,
       duration: 1.2,
       scrollTrigger: {
-        trigger: ".main-heading h1",
-        start: "top 90%",
+        trigger: ".heading h1",
+        start: "top 80%",
         end: "bottom 70%",
         toggleActions: "play none none reverse",
       },
