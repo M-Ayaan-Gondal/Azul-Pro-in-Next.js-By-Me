@@ -9,9 +9,9 @@ body {
   height: 100%;
   width: 100%;
 }
-.secondSection {
+.demandingSection {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   position: relative;
   display: flex;
   justify-content: center;
@@ -25,25 +25,19 @@ body {
   gap: 20px;
 }
 .heading {
-  font-size: 2.5vw;
+  font-size: 40px;
   font-weight: 600;
   color: #000000;
   position: absolute;
-  top: -8%;
+  top: 0%;
   left: 50%;
   transform: translateX(-50%);
   z-index: 550;
   font-family: "Clash Display", sans-serif;
+  width: 100%;
+  text-align: center;
 }
 .page-one {
-  /* width: 100vw;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgb(197, 197, 197);
-  padding: 50px;
-  gap: 20px; */
   width: 90vw;
   height: 100vh;
   display: grid;
@@ -174,7 +168,6 @@ body {
   border-bottom-right-radius: 30px;
   color: #000000;
   overflow: hidden;
-  transition: all 0.3s ease-in-out;
   font-family: "Clash Display", sans-serif;
   background: #1b2a47;
   color: #fff;
@@ -183,6 +176,9 @@ body {
 .image:hover .on-hover {
   bottom: 1%;
   opacity: 1;
+}
+.on-hover button:hover {
+  background: #2b3953;
 }
 
 .product {
@@ -224,11 +220,15 @@ body {
   width: 120px;
   margin-left: -4px;
 }
-.product-price{
+.product-price {
   font-weight: 600;
   font-size: 17px;
   margin-top: 6px;
 }
+.page-one .product {
+  will-change: transform, opacity;
+}
+
 @media (max-width: 400px) {
   .heading {
     display: flex;

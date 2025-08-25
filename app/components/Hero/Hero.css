@@ -10,7 +10,7 @@ body {
 }
 .main {
   height: calc(100vh - 80px);
-  width: 100vw;
+  width: 100%;
   padding: 60px 100px;
   position: relative;
 }
