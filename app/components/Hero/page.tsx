@@ -1,5 +1,6 @@
 import React from "react";
 import "./Hero.css";
+import Image from "next/image";
 
 const page = () => {
   return (
@@ -21,7 +22,7 @@ const page = () => {
         <div className="discover-btn">
           <button>
             Discover More
-            <img src="https://cdn-icons-png.flaticon.com/512/3236/3236907.png" />
+            <Image src="https://cdn-icons-png.flaticon.com/512/3236/3236907.png" alt="" width={50} height={50}/>
           </button>
         </div>
       </div>

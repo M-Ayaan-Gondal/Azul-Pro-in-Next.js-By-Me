@@ -74,9 +74,11 @@ const Page = () => {
           <div className="card-wrapper card-wrapper1">
             <div className="card-content card-content1">
               <h1>Our Fabrics</h1>
-              <img
+              <Image
                 src="https://searchforfabric.com/cdn/shop/articles/the_importance_of_high_quality_fabric_for_clothing_a_guide_900x.png?v=1717559432"
                 alt=""
+                width={50}
+                height={50}
               />
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt incidunt quis maiores, temporibus itaque maxime, ex officia reiciendis modi eius recusandae dolorem. Odit possimus, libero dolores deleniti aut iusto? Officiis?
@@ -115,9 +117,11 @@ const Page = () => {
           <div className="card-wrapper card-wrapper2">
             <div className="card-content card-content1">
               <h1>Our Designs</h1>
-              <img
+              <Image
                 src="https://img.freepik.com/free-photo/vintage-batik-floral-pattern-illustration_53876-104123.jpg?semt=ais_hybrid&w=740&q=80"
                 alt=""
+                width={50}
+                height={50}
               />
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt incidunt quis maiores, temporibus itaque maxime, ex officia reiciendis modi eius recusandae dolorem. Odit possimus, libero dolores deleniti aut iusto? Officiis?

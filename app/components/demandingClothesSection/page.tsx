@@ -63,7 +63,7 @@ export default function Page() {
             <div className="details">
               <div className="product-name"><h2>Kaftan</h2></div>
               <div className="product-rating">
-                <img src="https://static.vecteezy.com/system/resources/thumbnails/019/859/726/small/yellow-five-stars-quality-rating-icons-5-stars-icon-five-star-sign-rating-symbol-transparent-background-illustration-png.png" alt="" />
+                <Image src="https://static.vecteezy.com/system/resources/thumbnails/019/859/726/small/yellow-five-stars-quality-rating-icons-5-stars-icon-five-star-sign-rating-symbol-transparent-background-illustration-png.png" alt="" width={50} height={50} />
                 <p>90+ Reviews</p>
               </div>
               <div className="product-price"><h3>From $10</h3></div>
@@ -75,7 +75,7 @@ export default function Page() {
             <div className="details">
               <div className="product-name"><h2>Long Shirt</h2></div>
               <div className="product-rating">
-                <img src="https://static.vecteezy.com/system/resources/thumbnails/019/859/726/small/yellow-five-stars-quality-rating-icons-5-stars-icon-five-star-sign-rating-symbol-transparent-background-illustration-png.png" alt="" />
+                <Image src="https://static.vecteezy.com/system/resources/thumbnails/019/859/726/small/yellow-five-stars-quality-rating-icons-5-stars-icon-five-star-sign-rating-symbol-transparent-background-illustration-png.png" alt="" width={50} height={50}/>
                 <p>40+ Reviews</p>
               </div>
               <div className="product-price"><h3>From $8</h3></div>
@@ -87,7 +87,7 @@ export default function Page() {
             <div className="details">
               <div className="product-name"><h2>Brown kaftan</h2></div>
               <div className="product-rating">
-                <img src="https://static.vecteezy.com/system/resources/thumbnails/019/859/726/small/yellow-five-stars-quality-rating-icons-5-stars-icon-five-star-sign-rating-symbol-transparent-background-illustration-png.png" alt="" />
+                <Image src="https://static.vecteezy.com/system/resources/thumbnails/019/859/726/small/yellow-five-stars-quality-rating-icons-5-stars-icon-five-star-sign-rating-symbol-transparent-background-illustration-png.png" alt="" width={50} height={50}/>
                 <p>100+ Reviews</p>
               </div>
               <div className="product-price"><h3>From $20</h3></div>
@@ -99,7 +99,7 @@ export default function Page() {
             <div className="details">
               <div className="product-name"><h2>3-Pc frok</h2></div>
               <div className="product-rating">
-                <img src="https://static.vecteezy.com/system/resources/thumbnails/019/859/726/small/yellow-five-stars-quality-rating-icons-5-stars-icon-five-star-sign-rating-symbol-transparent-background-illustration-png.png" alt="" />
+                <Image src="https://static.vecteezy.com/system/resources/thumbnails/019/859/726/small/yellow-five-stars-quality-rating-icons-5-stars-icon-five-star-sign-rating-symbol-transparent-background-illustration-png.png" alt="" width={50} height={50}/>
                 <p>200+ Reviews</p>
               </div>
               <div className="product-price"><h3>From $22</h3></div>
@@ -111,7 +111,7 @@ export default function Page() {
             <div className="details">
               <div className="product-name"><h2>long frok</h2></div>
               <div className="product-rating">
-                <img src="https://static.vecteezy.com/system/resources/thumbnails/019/859/726/small/yellow-five-stars-quality-rating-icons-5-stars-icon-five-star-sign-rating-symbol-transparent-background-illustration-png.png" alt="" />
+                <Image src="https://static.vecteezy.com/system/resources/thumbnails/019/859/726/small/yellow-five-stars-quality-rating-icons-5-stars-icon-five-star-sign-rating-symbol-transparent-background-illustration-png.png" alt="" width={50} height={50}/>
                 <p>67+ Reviews</p>
               </div>
               <div className="product-price"><h3>From $9</h3></div>
